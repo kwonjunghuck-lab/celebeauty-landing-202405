@@ -30,7 +30,7 @@ const IntegrationVisual = () => (
         <div className="w-9 h-9 sm:w-11 sm:h-11 bg-white rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.06)] border border-slate-50 flex items-center justify-center text-rose-500 animate-float">
             <Instagram size={20} className="sm:w-6 sm:h-6" />
         </div>
-        <div className="w-9 h-9 sm:w-11 sm:h-11 bg-white rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.06)] border border-slate-50 flex items-center justify-center text-rose-600 animate-float delay-700 sm:translate-x-[-15px]">
+        <div className="w-9 h-9 sm:w-11 sm:h-11 bg-white rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.06)] border border-slate-100 flex items-center justify-center text-rose-600 animate-float delay-700 sm:translate-x-[-15px]">
             <Youtube size={20} className="sm:w-6 sm:h-6" />
         </div>
     </div>
@@ -119,8 +119,8 @@ const ReportingVisual = () => (
 
         {/* Card Footer: Positivity Index */}
         <div className="flex items-center gap-3 pt-5 border-t border-slate-50">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-300 border border-brand-100">
-                <Heart size={16} fill="currentColor" className="text-brand-400" />
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-300 border border-brand-100 overflow-hidden">
+                <img src="https://api.dicebear.com/7.x/lorelei/svg?seed=happy" className="w-full h-full scale-125" />
             </div>
             <div>
                 <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 leading-none mb-1">긍정 지수</p>
@@ -149,8 +149,8 @@ const BrandPoolVisual = () => (
         </div>
         <div className="flex -space-x-2">
             {[1,2,3].map(i => (
-                <div key={i} className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center overflow-hidden shadow-sm">
-                    <img src={`https://i.pravatar.cc/100?img=${i+30}`} className="w-full h-full object-cover" />
+                <div key={i} className="w-7 h-7 sm:w-8 h-8 rounded-full border-2 border-white bg-brand-50 flex items-center justify-center overflow-hidden shadow-sm">
+                    <img src={`https://api.dicebear.com/7.x/notionists/svg?seed=brand${i}`} className="w-full h-full object-cover" />
                 </div>
             ))}
         </div>
@@ -183,8 +183,16 @@ const SourcingVisual = () => (
     </div>
 
     <div className="bg-white rounded-xl sm:rounded-2xl border border-brand-100 shadow-lg p-3 sm:p-4 mb-3 flex items-center gap-3 sm:gap-4 transition-all">
-        <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-tr from-brand-600 to-purple-500 flex items-center justify-center text-white shadow-xl shadow-brand-500/20">
-            <Package size={20} className="sm:w-6 sm:h-6" />
+        <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-tr from-brand-600 to-purple-500 flex items-center justify-center text-white shadow-xl shadow-brand-500/20 overflow-hidden p-2.5">
+            {/* Custom Cosmetic/Mascara Illustration SVG */}
+            <svg viewBox="0 0 24 24" className="w-full h-full text-white drop-shadow-sm" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="8" y="2" width="8" height="20" rx="2" fill="white" fillOpacity="0.2" />
+              <path d="M12 2v6" />
+              <path d="M9 8h6" />
+              <circle cx="12" cy="15" r="3" fill="white" fillOpacity="0.3" />
+              <path d="M12 13v4" />
+              <path d="M11 15h2" />
+            </svg>
         </div>
         <div className="flex-1">
             <p className="text-[9px] sm:text-[10px] font-black text-slate-400 mb-0.5">이번 주 정밀 추천</p>
@@ -203,8 +211,9 @@ const SourcingVisual = () => (
 const OpsZeroVisual = () => (
   <div className="relative w-full h-44 mt-4 bg-slate-950 rounded-[1.5rem] border border-slate-800 shadow-2xl overflow-hidden flex items-center justify-center">
     <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:15px_15px] opacity-20"></div>
-    <div className="relative z-10 w-12 h-12 sm:w-14 sm:h-14 bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 flex items-center justify-center text-brand-400 shadow-[0_0_40px_rgba(139,92,246,0.3)]">
-        <Settings size={28} className="animate-[spin_8s_linear_infinite] sm:w-8 sm:h-8" />
+    <div className="relative z-10 w-12 h-12 sm:w-14 sm:h-14 bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 flex items-center justify-center text-brand-400 shadow-[0_0_40px_rgba(139,92,246,0.3)] overflow-hidden p-2">
+        {/* Replaced person avatar with a stylized gear icon (Settings) to represent automation */}
+        <Settings size={32} strokeWidth={1.5} className="animate-[spin_8s_linear_infinite]" />
     </div>
     <div className="absolute top-3 left-3 bg-slate-900/90 border border-slate-800 px-2 sm:px-3 py-1 rounded-lg sm:rounded-xl shadow-lg flex items-center gap-1.5">
         <Package size={10} className="text-brand-400 sm:w-3 sm:h-3" />
