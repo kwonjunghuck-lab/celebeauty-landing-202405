@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40" fill="none">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Mark Background -->
+  <rect x="0" y="2" width="36" height="36" rx="10" fill="url(#brandGradient)" />
+  
+  <!-- Sparkles Icon -->
+  <g transform="translate(8, 10)">
+    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962l6.135-1.582a2 2 0 0 0 1.437-1.437l1.582-6.135a.5.5 0 0 1 .963 0l1.582 6.135a2 2 0 0 0 1.437 1.437l6.135 1.582a.5.5 0 0 1 0 .962l-6.135 1.582a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" fill="white" />
+    <path d="M20 3v4" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <path d="M22 5h-4" stroke="white" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Text -->
+  <text x="46" y="27" font-family="'Caviar Dreams', -apple-system, sans-serif" font-weight="700" font-size="20" fill="#7c3aed" letter-spacing="0">Celebeauty</text>
+</svg>

@@ -31,7 +31,7 @@ export const Navbar: React.FC = () => {
           <div className="w-9 h-9 bg-gradient-to-tr from-brand-600 to-brand-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform duration-300">
             <Sparkles size={20} fill="currentColor" className="text-white" />
           </div>
-          <span className="text-xl font-bold text-slate-900 tracking-tight group-hover:text-brand-700 transition-colors">Celebeauty</span>
+          <span className="text-xl font-bold text-brand-600 font-logo tracking-normal">Celebeauty</span>
         </div>
 
         {/* Desktop Nav */}

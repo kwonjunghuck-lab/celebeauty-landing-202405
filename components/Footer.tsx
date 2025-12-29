@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-slate-400 text-sm leading-relaxed border-b border-slate-900 pb-16">
               {/* Column 1: Company Details */}
               <div className="space-y-4">
-                <h4 className="text-white text-lg font-bold mb-6">Celebeauty I (주) 꿈선생</h4>
+                <h4 className="text-white text-lg font-bold mb-6"><span className="font-logo font-bold">Celebeauty</span> I (주) 꿈선생</h4>
                 <div className="flex items-center gap-2">
                   <User size={14} className="text-slate-500" />
                   <span>대표이사 권정혁</span>
