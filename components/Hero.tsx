@@ -120,7 +120,8 @@ export const Hero: React.FC = () => {
                   <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 overflow-hidden border border-brand-200">
-                        <img src="https://api.dicebear.com/7.x/notionists/svg?seed=TargetAudience" alt="target" className="w-full h-full scale-110" />
+                        {/* Changed Seed to Lola for distinct long-hair female appearance */}
+                        <img src="https://api.dicebear.com/9.x/lorelei/svg?seed=Aneka" alt="target" className="w-full h-full scale-110" />
                       </div>
                       <div>
                         <p className="text-xs text-slate-500 font-medium">Target Audience</p>
@@ -218,7 +219,8 @@ export const Hero: React.FC = () => {
              <div className="glass-card p-4 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] animate-float">
                 <div className="flex items-center gap-4">
                   <div className="relative">
-                    <img src="https://api.dicebear.com/7.x/notionists/svg?seed=ManagerMinji" alt="Manager" className="w-12 h-12 rounded-full border-2 border-white shadow-md bg-white" />
+                    {/* Changed Seed to Mia for Female Appearance */}
+                    <img src="https://api.dicebear.com/7.x/notionists/svg?seed=Mia" alt="Manager" className="w-12 h-12 rounded-full border-2 border-white shadow-md bg-white" />
                     <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 border-2 border-white rounded-full"></div>
                   </div>
                   <div>

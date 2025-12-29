@@ -123,19 +123,19 @@ export const TESTIMONIALS = [
     quote: "제안이 너무 많아서 항상 선택이 힘들었는데, 이번엔 후보가 딱 정리돼서 왔어요. ‘이 제품이 왜 우리 채널에서 먹힐지’가 설명되니까 제가 판단하기도 쉬웠고요.",
     author: "뷰티 크리에이터 A님",
     role: "팔로워 15만, 색조 전문",
-    img: "https://api.dicebear.com/7.x/notionists/svg?seed=CreatorA"
+    img: "https://api.dicebear.com/9.x/lorelei/svg?seed=Aneka"
   },
   {
     quote: "타 플랫폼 처럼 내가 찾아가는 것이 아닌, 내 채널에 맞는 제품을 안정적으로 공급해줄 수 있다는 지점이 채널 성장과 더불어 안정성을 더해줬습니다.",
     author: "인플루언서 B님",
     role: "팔로워 8만, 스킨케어 전문",
-    img: "https://api.dicebear.com/7.x/notionists/svg?seed=InfluencerB"
+    img: "https://api.dicebear.com/9.x/lorelei/svg?seed=qwe&beardProbability=0&earringsProbability=100&hairAccessoriesProbability=100"
   },
   {
     quote: "내 채널 DNA를 분석해준다는 게 신기했어요. 실제로 추천받은 기초 제품이 제 채널 역사상 역대급 반응을 이끌어냈습니다. 레퍼런스가 쌓이니 든든해요.",
     author: "유튜버 C님",
     role: "구독자 30만, 데일리 메이크업",
-    img: "https://api.dicebear.com/7.x/notionists/svg?seed=YoutuberC"
+    img: "https://api.dicebear.com/7.x/lorelei/svg?seed=Celina"
   },
 ];
 
