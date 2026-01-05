@@ -18,7 +18,11 @@ export const Hero: React.FC = () => {
   };
 
   const handleOpenServiceIntro = () => {
-    window.open('https://drive.google.com/file/d/1c-M3WHKySm4IlEDD58R9ayAKhywc6nvm/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1Hw7DhHmDYyYn-kvkjnsteWodYkFDbkfc/view?usp=sharing', '_blank');
+  };
+
+  const handleBrandInquiry = () => {
+    window.open('https://brand.celebeauty.co.kr/', '_blank');
   };
 
   return (
@@ -70,7 +74,7 @@ export const Hero: React.FC = () => {
 
         {/* CTA Buttons */}
         <div 
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-lg mx-auto mb-20 px-8 sm:px-0 animate-fade-in-up opacity-0"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-lg mx-auto mb-6 px-8 sm:px-0 animate-fade-in-up opacity-0"
           style={{ animationDelay: '450ms', animationFillMode: 'forwards' }}
         >
           <Button 
@@ -91,10 +95,23 @@ export const Hero: React.FC = () => {
           </Button>
         </div>
 
+        {/* Brand Inquiry Text Link */}
+        <div 
+            className="text-center mb-16 animate-fade-in-up opacity-0"
+            style={{ animationDelay: '550ms', animationFillMode: 'forwards' }}
+        >
+            <button 
+                onClick={handleBrandInquiry}
+                className="text-slate-400 text-[13px] sm:text-sm font-medium underline underline-offset-4 decoration-slate-300 hover:text-brand-600 hover:decoration-brand-300 transition-all"
+            >
+                브랜드 이신가요? 브랜드 협력 문의는 여기로!
+            </button>
+        </div>
+
         {/* High-Fidelity Dashboard Mockup */}
         <div 
           className="relative max-w-5xl mx-auto mt-12 perspective-1000 animate-fade-in-up opacity-0"
-          style={{ animationDelay: '600ms', animationFillMode: 'forwards' }}
+          style={{ animationDelay: '650ms', animationFillMode: 'forwards' }}
         >
           <div className="glass-card rounded-[2rem] p-3 shadow-2xl shadow-brand-900/10 transform rotate-x-12 transition-transform duration-700 hover:rotate-0">
             <div className="bg-white rounded-[1.5rem] border border-gray-100 overflow-hidden shadow-inner">

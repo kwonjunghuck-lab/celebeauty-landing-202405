@@ -9,7 +9,11 @@ export const Footer: React.FC = () => {
   };
 
   const handleOpenServiceIntro = () => {
-    window.open('https://drive.google.com/file/d/1c-M3WHKySm4IlEDD58R9ayAKhywc6nvm/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1Hw7DhHmDYyYn-kvkjnsteWodYkFDbkfc/view?usp=sharing', '_blank');
+  };
+
+  const handleBrandInquiry = () => {
+    window.open('https://brand.celebeauty.co.kr/', '_blank');
   };
 
   return (
@@ -45,7 +49,7 @@ export const Footer: React.FC = () => {
               감이 아닌 데이터로 채널이 원하는<br /> 진짜 상품을 찾아드립니다.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-2xl mx-auto px-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-2xl mx-auto px-4 mb-8">
               <Button 
                 variant="secondary"
                 onClick={handleApply}
@@ -60,6 +64,16 @@ export const Footer: React.FC = () => {
               >
                 <FileText size={18} className="text-violet-200" /> 서비스 소개서 보기
               </Button>
+            </div>
+
+            {/* Brand Inquiry Text Link */}
+            <div className="text-center">
+                <button 
+                    onClick={handleBrandInquiry}
+                    className="text-violet-200 text-sm font-medium underline underline-offset-4 decoration-violet-400/50 hover:text-white hover:decoration-white transition-all"
+                >
+                    브랜드 이신가요? 브랜드 협력 문의는 여기로!
+                </button>
             </div>
           </div>
         </div>
