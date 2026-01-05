@@ -159,11 +159,11 @@ const BrandPoolVisual = () => (
      <div className="grid grid-cols-2 gap-2">
         <div className="bg-slate-50 rounded-xl p-2.5 border border-slate-100 flex items-center gap-2">
             <ShieldCheck size={12} className="text-emerald-500" />
-            <span className="text-[10px] sm:text-[11px] font-bold text-slate-700">명품 뷰티 500+</span>
+            <span className="text-[10px] sm:text-[11px] font-bold text-slate-700">HOT 뷰티 500+</span>
         </div>
         <div className="bg-slate-50 rounded-xl p-2.5 border border-slate-100 flex items-center gap-2">
             <ShieldCheck size={12} className="text-emerald-500" />
-            <span className="text-[10px] sm:text-[11px] font-bold text-slate-700">비건·기초 800+</span>
+            <span className="text-[10px] sm:text-[11px] font-bold text-slate-700">NEW 푸드 300+</span>
         </div>
         <div className="col-span-2 bg-brand-50/50 rounded-xl p-2 border border-brand-100 flex items-center justify-center">
             <span className="text-[9px] sm:text-[10px] font-black text-brand-600">압도적 선택지를 경험하세요</span>
