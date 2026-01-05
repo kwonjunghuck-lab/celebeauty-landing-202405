@@ -17,7 +17,7 @@ export const Navbar: React.FC = () => {
   }, []);
 
   const handleApply = () => {
-    window.open('https://walla.my/a/dealmakers.apply', '_blank');
+    window.open('https://walla.my/a/celebeauty.apply', '_blank');
   };
 
   const hasLinks = NAV_LINKS.length > 0;

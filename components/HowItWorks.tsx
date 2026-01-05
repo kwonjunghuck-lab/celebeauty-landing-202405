@@ -210,7 +210,7 @@ export const HowItWorks: React.FC = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const handleApply = () => {
-    window.open('https://walla.my/a/dealmakers.apply', '_blank');
+    window.open('https://walla.my/a/celebeauty.apply', '_blank');
   };
 
   // Auto-scroll logic for mobile tabs - Refined for perfect centering

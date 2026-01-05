@@ -5,7 +5,7 @@ import { Sparkles, ArrowRight, FileText, Phone, Mail, Clock, MapPin, User } from
 
 export const Footer: React.FC = () => {
   const handleApply = () => {
-    window.open('https://walla.my/a/dealmakers.apply', '_blank');
+    window.open('https://walla.my/a/celebeauty.apply', '_blank');
   };
 
   const handleOpenServiceIntro = () => {

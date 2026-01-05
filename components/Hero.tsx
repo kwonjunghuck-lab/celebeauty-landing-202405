@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
   const highlight = splitIndex !== -1 ? firstLine.substring(splitIndex + 1) : '';
 
   const handleApply = () => {
-    window.open('https://walla.my/a/dealmakers.apply', '_blank');
+    window.open('https://walla.my/a/celebeauty.apply', '_blank');
   };
 
   const handleOpenServiceIntro = () => {
