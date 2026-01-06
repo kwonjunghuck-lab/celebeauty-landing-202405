@@ -104,7 +104,7 @@ export const Hero: React.FC = () => {
                 onClick={handleBrandInquiry}
                 className="text-slate-400 text-[13px] sm:text-sm font-medium underline underline-offset-4 decoration-slate-300 hover:text-brand-600 hover:decoration-brand-300 transition-all"
             >
-                브랜드 이신가요? 브랜드 협력 문의는 여기로!
+                브랜드이신가요? 브랜드 협력 문의는 여기로!
             </button>
         </div>
 

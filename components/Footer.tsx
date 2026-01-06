@@ -72,7 +72,7 @@ export const Footer: React.FC = () => {
                     onClick={handleBrandInquiry}
                     className="text-violet-200 text-sm font-medium underline underline-offset-4 decoration-violet-400/50 hover:text-white hover:decoration-white transition-all"
                 >
-                    브랜드 이신가요? 브랜드 협력 문의는 여기로!
+                    브랜드이신가요? 브랜드 협력 문의는 여기로!
                 </button>
             </div>
           </div>
