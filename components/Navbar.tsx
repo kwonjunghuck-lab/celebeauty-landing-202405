@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { NAV_LINKS } from '../constants';
 import { Button } from './ui/Button';
-import { Sparkles, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,11 +27,8 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         
         {/* Logo */}
-        <div className="flex items-center space-x-2.5 cursor-pointer group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <div className="w-9 h-9 bg-gradient-to-tr from-brand-600 to-brand-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform duration-300">
-            <Sparkles size={20} fill="currentColor" className="text-white" />
-          </div>
-          <span className="text-xl font-bold text-brand-600 font-logo tracking-normal">Celebeauty</span>
+        <div className="flex items-center cursor-pointer group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          <span className="text-3xl text-brand-600 font-logo tracking-normal hover:opacity-80 transition-opacity">Celebeauty</span>
         </div>
 
         {/* Desktop Nav */}
